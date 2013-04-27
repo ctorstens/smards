@@ -1,3 +1,3 @@
 class Statistic < ActiveRecord::Base
-  # Remember to create a migration!
+  validates :correct, :presence => true
 end
